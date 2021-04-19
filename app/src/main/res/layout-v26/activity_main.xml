@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="291dp"
+    tools:layout_editor_absoluteY="312dp"
+    android:id="@+id/framelayout"
+    android:background="@color/black">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="550dp"
+        android:layout_height="match_parent">
+
+        <org.videolan.libvlc.util.VLCVideoLayout
+            android:id="@+id/video_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:keepScreenOn="true" />
+    </LinearLayout>
+
+    <io.github.controlwear.virtual.joystick.android.JoystickView
+        android:id="@+id/joystick"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:JV_borderColor="@color/white"
+        app:JV_borderWidth="4dp"
+        app:JV_buttonColor="@color/white"
+        app:JV_buttonSizeRatio="20%"
+        app:JV_fixedCenter="false" />
+<!--    <io.github.controlwear.virtual.joystick.android.JoystickView-->
+<!--        android:id="@+id/joystick2"-->
+<!--        android:layout_marginTop="200dp"-->
+<!--        android:layout_marginLeft="450dp"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        app:JV_borderColor="@color/white"-->
+<!--        app:JV_borderWidth="4dp"-->
+<!--        app:JV_buttonColor="@color/white"-->
+<!--        app:JV_buttonSizeRatio="20%"-->
+<!--        app:JV_fixedCenter="false" />-->
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@mipmap/ic_esetronlogo3">
+
+    </ImageView>
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_marginTop="5dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="551dp"
+        android:background="@drawable/ic_play"
+            />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:min="15"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="450dp"
+        android:rotation="270"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/textviewc"
+        android:textColor="@color/white"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="190dp"
+        android:layout_width="80dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/textviewd"
+        android:layout_marginLeft="487dp"
+        android:layout_marginTop="190dp"
+        android:textColor="@color/white"
+        android:layout_width="50dp"
+        android:layout_height="20dp" />
+
+    <ImageButton
+        android:id="@+id/button7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="325dp"
+        android:background="@mipmap/ic_observation" />
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="295dp"
+        android:background="@mipmap/ic_drive" />
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_marginLeft="551dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_zoomin" />
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_marginLeft="551dp"
+        android:layout_marginTop="105dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_zoomout" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="551dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/ic_rotate"
+         />
+    <ImageButton
+        android:id="@+id/button4"
+        android:layout_marginLeft="551dp"
+        android:layout_marginTop="205dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_one" />
+    <ImageButton
+        android:id="@+id/button5"
+        android:layout_marginLeft="551dp"
+        android:layout_marginTop="255dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_photo3" />
+    <ImageButton
+        android:id="@+id/button6"
+        android:layout_marginLeft="551dp"
+        android:layout_marginTop="305dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_fullscreen2" />
+
+
+    <!--    <Space-->
+<!--        android:background="@color/white"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_weight="1" />-->
+</FrameLayout>
